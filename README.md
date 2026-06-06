@@ -1,77 +1,52 @@
-Healthcare Dashboard Analysis
-Executive Summary
-Based on the Healthcare Dashboard Report, the facility manages 38K total patients with a $973.78M total billing, averaging $25.57K per patient. Here are the key insights, recommendations, and actionable steps.
+Project Overview
+This project presents a comprehensive Healthcare Analytics Dashboard developed to monitor, analyze, and optimize the operational and financial performance of a healthcare facility. The dashboard consolidates patient data spanning 2019 to 2022, covering 38,000 patients across multiple medical conditions, admission types, and insurance providers, with a total billing amount of $973.78M.
+The dashboard was designed to serve as a single source of truth for healthcare administrators, clinical staff, and financial analysts — enabling them to make informed, data-driven decisions through interactive visualizations and key performance indicators (KPIs).
 
-1. Key Insights
-Billing & Financial Performance
+Background
+The healthcare industry faces increasing pressure to deliver high-quality patient care while managing rising operational costs and complex insurance landscapes. This project was initiated to address the need for a centralized reporting system that can:
 
-Total billing reached $973.78M with a maximum bill of $52.76K, nearly double the average of $25.57K, suggesting significant variation in treatment costs
-Billing is fairly evenly distributed across insurance providers, with Blue Cross leading at $196.86M followed closely by Cigna ($196.42M), Medicare ($194.99M), Aetna ($191.87M), and UnitedHealthcare ($193.61M)
-This near-equal distribution suggests no single insurance provider dominates, which is a healthy diversification
+Track patient admission trends across different time periods
+Monitor billing performance across insurance providers
+Identify the most prevalent medical conditions affecting the patient population
+Analyze medication usage patterns by condition and admission type
+Support strategic planning and resource allocation
 
-Medical Conditions
+Scope of the Project
+Scope AreaDetailsTime Period2019 - 2022Total Patients38,000Medical Conditions CoveredArthritis, Diabetes, Hypertension, Obesity, Cancer, AsthmaAdmission TypesUrgent, Emergency, ElectiveInsurance ProvidersAetna, Blue Cross, Cigna, Medicare, UnitedHealthcareKey MetricsTotal Bill, Max Bill, Average Bill, Medication Count, Year of Discharge
 
-Arthritis is the most prevalent condition with 13,109K year of discharge, followed by Diabetes (12,856K) and Hypertension (12,822K)
-The gap between highest (Arthritis) and lowest (Asthma at 12,718K) is only 3.07%, indicating relatively uniform distribution across all conditions
-All six conditions (Arthritis, Diabetes, Hypertension, Obesity, Cancer, Asthma) appear to have similar patient volumes, suggesting a well-rounded care facility
+Project Objectives
+Objective 1: Financial Performance Monitoring
+To track and analyze the total billing amount, maximum bill, and average bill per patient across all insurance providers, enabling the finance team to identify revenue trends and billing anomalies.
+Key Goal: Maintain billing transparency and ensure accurate financial reporting across all 5 insurance providers totaling $973.78M
 
-Medication & Admission Type
+Objective 2: Patient & Condition Analysis
+To identify the most prevalent medical conditions among the patient population and understand their distribution across admission types and gender, supporting clinical decision-making and resource planning.
+Key Goal: Analyze the 6 major medical conditions and their impact on patient volume and medication usage
 
-Elective admissions lead with 12,891 medication counts, followed by Urgent (12,777) and Emergency (12,418)
-Elective admission average medication count is 2,148.50, slightly higher than Urgent (2,129.50) and Emergency (2,069.67)
-This suggests elective patients consume more medications on average, which may drive higher costs
+Objective 3: Medication Usage Optimization
+To monitor medication counts by condition and admission type, identifying patterns that can help reduce unnecessary medication costs and improve treatment protocols.
+Key Goal: Optimize medication distribution across 3 admission types (Elective: 12,891 | Urgent: 12,777 | Emergency: 12,418)
 
-Gender Distribution
+Objective 4: Insurance Provider Performance
+To evaluate billing distribution across all insurance providers and identify opportunities for contract renegotiation or preferred partnership programs.
+Key Goal: Ensure equitable billing distribution and maximize reimbursement rates across all providers
 
-Medical conditions appear fairly balanced between male and female patients across all six conditions
-Slight variations exist per condition but no significant gender disparity is visible
+Objective 5: Operational Efficiency
+To provide hospital administrators with actionable insights on admission trends by month and year, supporting better staffing, bed management, and resource allocation decisions.
+Key Goal: Use historical data (2019-2022) to forecast future admission trends and optimize hospital operations
 
+Key Performance Indicators (KPIs)
+KPIValueTotal Billing$973.78MMaximum Bill$52.76KAverage Bill Per Patient$25.57KTotal Patients38,000Top Medical ConditionArthritis (13,109K discharges)Highest Billing ProviderBlue Cross ($196.86M)Highest Admission TypeElective (12,891 medications)
 
-2. Concerns & Red Flags
-High Maximum Bill
+Expected Outcomes
 
-The $52.76K maximum bill is more than double the average, indicating potential outlier cases that may require financial assistance programs or payment plan reviews
-
-Emergency vs Elective Imbalance
-
-Emergency admissions having the lowest medication count could indicate patients are being discharged too early or undertreated in emergency settings
-
-Chronic Disease Dominance
-
-All top conditions (Arthritis, Diabetes, Hypertension, Obesity) are chronic diseases, suggesting a heavy long-term care burden on the facility
-
-
-3. Recommendations
-Financial
-
-Introduce tiered billing plans for high-cost patients to reduce default risk, especially targeting those near the $52.76K maximum
-Negotiate better rates with insurance providers since billing is evenly distributed — leverage volume with each provider for better reimbursement rates
-Focus on cost reduction in elective admissions since they consume the most medication, review if all prescribed medications are necessary
-
-Clinical
-
-Invest in chronic disease management programs for Arthritis, Diabetes, and Hypertension since these are the top three conditions — preventive care can reduce long-term costs
-Review emergency care protocols to ensure patients aren't being under-medicated compared to elective and urgent cases
-Launch gender-specific health programs based on condition prevalence data to improve targeted care
-
-Operational
-
-Expand elective admission capacity since it has the highest patient volume and medication usage — this represents a significant revenue opportunity
-Implement predictive analytics to forecast patient admissions by month and condition for better resource allocation
+✅ Improved financial visibility and billing accuracy across all insurance providers
+✅ Better understanding of chronic disease burden enabling targeted care programs
+✅ Optimized medication management reducing unnecessary costs
+✅ Data-driven staffing and resource allocation based on admission trends
+✅ Strategic partnerships with insurance providers based on billing performance
+✅ Foundation for predictive analytics and future healthcare planning
 
 
-4. Actionable Steps
-PriorityActionTimeline
-🔴 HighLaunch chronic disease management program for top 3 conditions1-3 months
-🔴 HighReview billing outliers near $52.76K maximum and create payment plans1 month
-🟡 MediumNegotiate insurance rates with all 5 providers3-6 months
-🟡 MediumAudit elective admission medication prescriptions for cost efficiency2-3 months
-🟢 LowDevelop gender-specific health screening programs6-12 months
-🟢 LowImplement predictive admission forecasting system6-12 months
-
-6. Business Opportunities
-
-Chronic Disease Clinics — Given the high volume of Arthritis, Diabetes, and Hypertension patients, dedicated specialty clinics could improve care and generate additional revenue
-Wellness & Preventive Programs — Targeting Obesity patients (12,751K) with preventive programs could reduce long-term treatment costs
-Insurance Partnership Programs — Since billing is evenly split among 5 providers, creating preferred partnership programs could drive more patient referrals
-Elective Surgery Expansion — Elective admissions have the highest medication and patient counts, suggesting strong demand for elective procedures
+Tools & Technologies Used
+ToolPurposeMicrosoft Excel / Power BIDashboard development and visualizationSQLData extraction and transformationData ModelingStructuring patient, billing, and condition data
